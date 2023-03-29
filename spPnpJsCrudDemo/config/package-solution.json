@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "sp-pnp-js-crud-demo-client-side-solution",
+    "id": "40efa512-710d-4335-a099-abf0548a28a9",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.14.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "sp-pnp-js-crud-demo description"
+      },
+      "longDescription": {
+        "default": "sp-pnp-js-crud-demo description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "sp-pnp-js-crud-demo Feature",
+        "description": "The feature that activates elements of the sp-pnp-js-crud-demo solution.",
+        "id": "a35cde5b-4434-4db4-b06c-fc9313d7a2a2",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/sp-pnp-js-crud-demo.sppkg"
+  }
+}

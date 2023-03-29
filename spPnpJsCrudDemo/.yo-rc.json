@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.14.0",
+    "libraryName": "sp-pnp-js-crud-demo",
+    "libraryId": "40efa512-710d-4335-a099-abf0548a28a9",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "sp-pnp-js-crud-demo",
+    "solutionShortDescription": "sp-pnp-js-crud-demo description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
