@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "icon-demo-client-side-solution",
+    "id": "5d1f054c-0c85-40d4-93f2-9dd6bcc1f472",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.14.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "icon-demo description"
+      },
+      "longDescription": {
+        "default": "icon-demo description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "icon-demo Feature",
+        "description": "The feature that activates elements of the icon-demo solution.",
+        "id": "5fca2523-a8e7-4c02-8505-5b253b234a10",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/icon-demo.sppkg"
+  }
+}
