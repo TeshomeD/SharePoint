@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "property-pane-wp-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/propertyPaneWp/PropertyPaneWpWebPart.js",
+          "manifest": "./src/webparts/propertyPaneWp/PropertyPaneWpWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "PropertyPaneWpWebPartStrings": "lib/webparts/propertyPaneWp/loc/{locale}.js"
+  }
+}
