@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "list-creation-demo-client-side-solution",
+    "id": "315a9072-5c04-44b7-9a2b-fd46727caf46",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.14.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "list-creation-demo description"
+      },
+      "longDescription": {
+        "default": "list-creation-demo description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "list-creation-demo Feature",
+        "description": "The feature that activates elements of the list-creation-demo solution.",
+        "id": "18e0a999-4fe7-4d9b-aa95-3bda7c5463ac",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/list-creation-demo.sppkg"
+  }
+}
