@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "get-list-of-lists-demo-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/getListOfListsDemo/GetListOfListsDemoWebPart.js",
+          "manifest": "./src/webparts/getListOfListsDemo/GetListOfListsDemoWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "GetListOfListsDemoWebPartStrings": "lib/webparts/getListOfListsDemo/loc/{locale}.js"
+  }
+}
