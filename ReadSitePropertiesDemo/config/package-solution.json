@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "read-site-properties-demo-client-side-solution",
+    "id": "6c07d0fa-83e0-4697-ad66-2bbc751ebb57",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.14.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "read-site-properties-demo description"
+      },
+      "longDescription": {
+        "default": "read-site-properties-demo description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "read-site-properties-demo Feature",
+        "description": "The feature that activates elements of the read-site-properties-demo solution.",
+        "id": "319bc4ea-41cc-40f7-95f7-693405ead68b",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/read-site-properties-demo.sppkg"
+  }
+}
