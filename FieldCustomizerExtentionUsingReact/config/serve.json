@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://spstudent2023.sharepoint.com/sites/ItAcademySite/Lists/ProjectsStatus/AllItems.aspx",
+      "fieldCustomizers": {
+        "Status": {
+          "id": "b0159c6f-70e6-4dcb-b16e-e70c68a51415",
+          "properties": {
+            "sampleText": ""
+          }
+        }
+      }
+    },
+    "fieldCustExtUsingReact": {
+      "pageUrl": "https://spstudent2023.sharepoint.com/sites/ItAcademySite/Lists/ProjectsStatus/AllItems.aspx",
+      "fieldCustomizers": {
+        "Status": {
+          "id": "b0159c6f-70e6-4dcb-b16e-e70c68a51415",
+          "properties": {
+            "sampleText": ""
+          }
+        }
+      }
+    }
+  }
+}
