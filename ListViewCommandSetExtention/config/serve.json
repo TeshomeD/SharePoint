@@ -1,0 +1,31 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://spstudent2023.sharepoint.com/sites/ItAcademySite/Lists/ProjectsStatus/AllItems.aspx",
+      "customActions": {
+        "1fb9b558-523d-4194-9ddb-c63545e686c4": {
+          "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
+          "properties": {
+            "sampleTextOne": "One item is selected in the list",
+            "sampleTextTwo": "Multiple Items are selected..."
+          }
+        }
+      }
+    },
+    "listViewCmdSetExtDemo": {
+      "pageUrl": "https://spstudent2023.sharepoint.com/sites/ItAcademySite/Lists/ProjectsStatus/AllItems.aspx",
+      "customActions": {
+        "1fb9b558-523d-4194-9ddb-c63545e686c4": {
+          "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
+          "properties": {
+            "sampleTextOne": "One item is selected in the list",
+            "sampleTextTwo": "Multiple Items are selected..."
+          }
+        }
+      }
+    }
+  }
+}

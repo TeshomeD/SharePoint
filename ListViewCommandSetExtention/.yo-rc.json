@@ -1,0 +1,17 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.14.0",
+    "libraryName": "list-view-command-set-extention",
+    "libraryId": "ca268a37-a2e5-4a69-a3fa-848084686cee",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "list-view-command-set-extention",
+    "solutionShortDescription": "list-view-command-set-extention description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "extension",
+    "extensionType": "ListViewCommandSet"
+  }
+}
